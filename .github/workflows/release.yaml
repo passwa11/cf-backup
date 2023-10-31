@@ -31,4 +31,4 @@ jobs:
           args: release --clean
         env:
           # CGO_ENABLED: 0
-          GITHUB_TOKEN: ${{ secrets.RELEASE_GH_TOKEN }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
